@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 2px solid black;
+}
+#first{
+    width: 200px;
+    display: inline-block;
+    justify-content: left;
+    text-align: start;
+}
+#second{
+    display: inline-block;
+    justify-content: end;
+    width: -200px;
+    text-align: end;
+}
